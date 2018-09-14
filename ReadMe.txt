@@ -25,3 +25,12 @@ and then start RaboCustStmtApp
 
 *POM Build script also attached.
 Note: After build Please make sure transaction.csv available in specified path
+
+BackEnd URL
+Generate Report - http://localhost:8484/statement/generate
+Download Report - http://localhost:8484/statement/getFile/{accountno}?fileType=
+		http://localhost:8484/statement/getFile/NL74ABNA0248990274?fileType=CSV
+		http://localhost:8484/statement/getFile/NL74ABNA0248990274?fileType=XML
+		http://localhost:8484/statement/getFile/NL74ABNA0248990274
+
+FE URL -http://localhost:4200
